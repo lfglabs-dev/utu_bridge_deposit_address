@@ -1,0 +1,10 @@
+[package]
+name = "utu_bridge_deposit_address"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitcoin = { version = "0.32.4", features = ["rand-std"] }
+starknet = { git = "https://github.com/xJonathanLEI/starknet-rs", rev = "c974e5cb42e8d8344cee910b76005ec46b4dd3ed" }
+lazy_static = "1.5.0"
+sha2 = "0.10.8"
